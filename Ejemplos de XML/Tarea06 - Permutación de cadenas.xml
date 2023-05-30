@@ -1,0 +1,111 @@
+
+<testconf language="C"> <!-- Soporta solo "C" y "Python" -->
+  <build score="2">   <!-- Cuantos puntos solo porque compile. En python esto se ignora -->
+    <flags>-lm</flags> <!-- Banderas de compilacion -->
+  </build>
+  <testbeds>
+    <testbed score="8" type="proportional" onerror="halt">  <!-- Tipos: ver comentario de arriba -->
+      
+<testrun args="'Imagine all the people living life in peace, you' '        ,Iaaaceeeeeeefgghiiiiilllllmnnnooppptuvy'" cout="1" />      
+<testrun args="'Oh, I m burnin  through the sky yeah' 'And no religion too'" cout="0" />      
+<testrun args="'Mama, life had just begun' 'I am a sex machine ready to reload'" cout="0" />      
+<testrun args="'I wake up to the sound of music, Mother Mary comes to me' '            ,IMMaaccdeeeeefhhikmmmnooooooprrsssttttuuuwy'" cout="1" />      
+<testrun args="'Two hundred degrees' 'I m just a poor boy, I need no sympathy'" cout="0" />      
+<testrun args="'Nothing really matters nothing really matters to me' 'So you think you can stone me and spit in my eye'" cout="0" />      
+<testrun args="'Too late, my time has come' '     ,Taaceeehilmmmooostty'" cout="1" />      
+<testrun args="'No need for greed or hunger' 'Oh baby, can t do this to me baby'" cout="0" />      
+<testrun args="'I m just a poor boy, I need no sympathy' '         ,IIaabdeehjmmnnoooopprssttuyyy'" cout="1" />      
+<testrun args="'I wanna make a supersonic man out of you' 'Just gotta get out just gotta get right outta here'" cout="0" />      
+<testrun args="'Ha da daa ha da da aaa' '      Haaaaaaaaaaddddh'" cout="1" />      
+<testrun args="'Bismillah! We will not let you go - let him go' 'I m having a ball'" cout="0" />      
+<testrun args="'La da da da daah' '    Laaaaaaddddh'" cout="1" />      
+<testrun args="'There s no stopping me' '    Teeeghimnnoopprsst'" cout="1" />      
+<testrun args="'Imagine there s no heaven' '    Iaaeeeeeghhimnnnorstv'" cout="1" />      
+<testrun args="'There will be an answer, let it be' 'I m trav ling at the speed of light'" cout="0" />      
+<testrun args="'Thunderbolt and lightning very very frightening me' '      Tabddeeeeefgggghhhiiiillmnnnnnnorrrrtttuvvyy'" cout="1" />      
+<testrun args="'Gallileo Figaro - magnifico' 'It s easy if you try'" cout="0" />      
+<testrun args="'Speaking words of wisdom, let it be' 'Easy come easy go will you let me go'" cout="0" />      
+<testrun args="'Ha da daa ha da da aaa' 'Easy come easy go will you let me go'" cout="0" />      
+<testrun args="'Beelzebub has a devil put aside for me' '       Baaabbddeeeeeefhiillmoprsstuuvz'" cout="1" />      
+<testrun args="'I wanna make a supersonic woman of you' '       Iaaaaaceefikmmnnnnooooprssuuwwy'" cout="1" />      
+<testrun args="'Oh, I m burnin  through the sky yeah' 'I am a sex machine ready to reload'" cout="0" />      
+<testrun args="'Will not let you go let me go (never)' 'Beelzebub has a devil put aside for me'" cout="0" />      
+<testrun args="'So you think you can stone me and spit in my eye' '           Saacdeeeehiiikmmnnnnnoooopsstttuuyyyy'" cout="1" />      
+<testrun args="'Is this the real life?' 'You may say I m a dreamer'" cout="0" />      
+<testrun args="'Two hundred degrees' '  Tdddeeeeghnorrsuw'" cout="1" />      
+<testrun args="'Nothing to kill or die for' 'Let it be, let it be, let it be, yeah, let it be'" cout="0" />      
+<testrun args="'No, no, no, no, no, no, no' '      ,,,,,,Nnnnnnnooooooo'" cout="1" />      
+<testrun args="'Oh, I m burnin  through the sky yeah' 'Spare him his life from this monstrosity'" cout="0" />      
+<testrun args="'It isn t hard to do' '     Iaddhinoorsttt'" cout="1" />      
+<testrun args="'For me' ' Femor'" cout="1" />      
+<testrun args="'I don t want to stop at all' 'Imagine all the people living for today'" cout="0" />      
+<testrun args="'Just gotta get out just gotta get right outta here' '         Jaaaeeeeggggghhijoooorrssttttttttttttuuuu'" cout="1" />      
+<testrun args="'Tonight I m gonna have myself a real good time' 'Ooh ooh ooh, I like it'" cout="0" />      
+<testrun args="'I m gonna go go go' 'Let it be, let it be, let it be, yeah, let it be'" cout="0" />      
+<testrun args="'Ha da da ha ha haaa' '     Haaaaaaaaddhhh'" cout="1" />      
+<testrun args="'Alright' 'Aghilrt'" cout="1" />      
+<testrun args="'Don t stop me don t stop me ah' 'Imagine all the people sharing all the world, you'" cout="0" />      
+<testrun args="'No need for greed or hunger' '     Nddeeeeefgghnnooorrrru'" cout="1" />      
+<testrun args="'Whisper words of wisdom, let it be' '      ,Wbddeeefhiiilmoooprrsssttww'" cout="1" />      
+<testrun args="'And no religion too' 'Whisper words of wisdom, let it be'" cout="0" />      
+<testrun args="'But I m just a poor boy and nobody loves me' 'Shine until tomorrow, let it be'" cout="0" />      
+<testrun args="'Gallileo, Gallileo,' 'Oh, I m burnin  through the sky yeah'" cout="0" />      
+<testrun args="'Don t stop me now' 'Oh baby, can t do this to me baby'" cout="0" />      
+<testrun args="'Will not let you go let me go (never)' 'Didn t mean to make you cry'" cout="0" />      
+<testrun args="'If you wanna have a good time just give me a call' '           Iaaaaaacdeeeefgghiijllmmnnooosttuuvvwy'" cout="1" />      
+<testrun args="'I wake up to the sound of music, Mother Mary comes to me' '            ,IMMaaccdeeeeefhhikmmmnooooooprrsssttttuuuwy'" cout="1" />      
+<testrun args="'Anyway the wind blows' 'Tonight I m gonna have myself a real good time'" cout="0" />      
+<testrun args="'Imagine all the people sharing all the world, you' 'Gallileo, Gallileo,'" cout="0" />      
+<testrun args="'Let it be, let it be, let it be, let it be' '           ,,,Lbbbbeeeeeeeeiiiillltttttttt'" cout="1" />      
+<testrun args="'Let it be, let it be, let it be, let it be' '           ,,,Lbbbbeeeeeeeeiiiillltttttttt'" cout="1" />      
+<testrun args="'Just gotta get out just gotta get right outta here' 'I wanna make a supersonic man out of you'" cout="0" />      
+<testrun args="'I don t want to stop at all' 'Nothing to kill or die for'" cout="0" />      
+<testrun args="'So you think you can stone me and spit in my eye' '           Saacdeeeehiiikmmnnnnnoooopsstttuuyyyy'" cout="1" />      
+<testrun args="'There s no stopping me' '    Teeeghimnnoopprsst'" cout="1" />      
+<testrun args="'No, no, no, no, no, no, no' '      ,,,,,,Nnnnnnnooooooo'" cout="1" />      
+<testrun args="'Have a good time good time' 'Mama, life had just begun'" cout="0" />      
+<testrun args="'I don t want to stop at all' 'I m gonna go go go'" cout="0" />      
+<testrun args="'Mama, just killed a man' '    ,Maaaadeijkllmmnstu'" cout="1" />      
+<testrun args="'Whisper words of wisdom, let it be' 'It isn t hard to do'" cout="0" />      
+<testrun args="'If I m not back again this time tomorrow' 'Nothing really matters nothing really matters to me'" cout="0" />      
+<testrun args="'A brotherhood of man' '   Aabdefhhmnoooorrt'" cout="1" />      
+<testrun args="'Scaramouch, scaramouch will you do the fandango' '      ,Saaaaaaccccddefghhhillmmnnooooorrstuuuwy'" cout="1" />      
+<testrun args="'I wake up to the sound of music, Mother Mary comes to me' '            ,IMMaaccdeeeeefhhikmmmnooooooprrsssttttuuuwy'" cout="1" />      
+<testrun args="'Whisper words of wisdom, let it be' '      ,Wbddeeefhiiilmoooprrsssttww'" cout="1" />      
+<testrun args="'Gallileo Figaro - magnifico' 'When I find myself in times of trouble, Mother Mary comes to me'" cout="0" />      
+<testrun args="'Put a gun against his head' '     Paaaadegghhiinnssttuu'" cout="1" />      
+<testrun args="'Imagine all the people sharing all the world, you' 'Don t stop me now ( cause I m having a good time - yeah yeah)'" cout="0" />      
+<testrun args="'I m burnin  through the sky yeah' '       Iabeeghhhhikmnnorrsttuuyy'" cout="1" />      
+<testrun args="'Don t stop me now (yes I m havin  a good time)' 'I sometimes wish I d never been born at all'" cout="0" />      
+<testrun args="'Beelzebub has a devil put aside for me' 'I m gonna go go go'" cout="0" />      
+<testrun args="'Da da da haa' 'Pulled my trigger, now he s dead'" cout="0" />      
+<testrun args="'A brotherhood of man' '   Aabdefhhmnoooorrt'" cout="1" />      
+<testrun args="'I don t want to die' 'Gotta leave you all behind and face the truth'" cout="0" />      
+<testrun args="'Let it be, let it be, let it be, let it be' '           ,,,Lbbbbeeeeeeeeiiiillltttttttt'" cout="1" />      
+<testrun args="'And when the broken hearted people living in the world agree' '          Aaabdddeeeeeeeeeegghhhhiiiklllnnnnnooopprrrrtttvww'" cout="1" />      
+<testrun args="'Like an atom bomb about to' '     Laaabbbeikmmnooootttu'" cout="1" />      
+<testrun args="'I m burnin  through the sky yeah' 'And the world will be as one'" cout="0" />      
+<testrun args="'Because I m easy come, easy go' '      ,BIaaacceeeeegmmoosssuyy'" cout="1" />      
+<testrun args="'I hope some day you ll join us' '       Iadeehijllmnoooopssuuyy'" cout="1" />      
+<testrun args="'But I m just a poor boy and nobody loves me' 'Oh mama mia, mama mia, mama mia let me go'" cout="0" />      
+<testrun args="'Oh baby, can t do this to me baby' 'On a collision course'" cout="0" />      
+<testrun args="'So don t stop me now don t stop me' 'Gallileo, Gallileo,'" cout="0" />      
+<testrun args="'So you think you can love me and leave me to die' '           Saaacddeeeeeehiikllmmnnnooooottuuvvyy'" cout="1" />      
+<testrun args="'If I m not back again this time tomorrow' 'Nothing really matters'" cout="0" />      
+<testrun args="'Spare him his life from this monstrosity' '      Saeeffhhhiiiiilmmmnoooprrrssssttty'" cout="1" />      
+<testrun args="'Let it be, let it be, let it be, let it be' '           ,,,Lbbbbeeeeeeeeiiiillltttttttt'" cout="1" />      
+<testrun args="'It s easy if you try' '     Iaefiorssttuyyy'" cout="1" />      
+<testrun args="'Above us only sky' '   Abeklnoossuvyy'" cout="1" />      
+<testrun args="'Spare him his life from this monstrosity' '      Saeeffhhhiiiiilmmmnoooprrrssssttty'" cout="1" />      
+<testrun args="'No need for greed or hunger' 'Two hundred degrees'" cout="0" />      
+<testrun args="'And the world will be as one' 'Tonight I m gonna have myself a real good time'" cout="0" />      
+<testrun args="'He s just a poor boy from a poor family' '         Haaabeffijlmmoooooopprrrsstuyy'" cout="1" />      
+<testrun args="'That s why they call me Mister Fahrenheit' 'Oh oh oh oh oh explode'" cout="0" />      
+<testrun args="'I don t want to die' 'Open your eyes'" cout="0" />      
+<testrun args="'Bismillah! We will not let you go - let him go' '          !-BWaeeegghhiiiillllllmmnoooostttuwy'" cout="1" />      
+<testrun args="'Bismillah! We will not let you go let me go' 'Open your eyes'" cout="0" />      
+<testrun args="'Imagine there s no countries' 'You may say I m a dreamer'" cout="0" />      
+<testrun args="'I don t want to stop at all' '       Iaaadllnnooopstttttw'" cout="1" />
+    </testbed>
+  </testbeds>
+</testconf>
