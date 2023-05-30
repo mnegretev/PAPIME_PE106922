@@ -1,0 +1,71 @@
+
+<testconf language="C"> <!-- Soporta solo "C" y "Python" -->
+  <build score="2">   <!-- Cuantos puntos solo porque compile. En python esto se ignora -->
+    <flags>-lm</flags> <!-- Banderas de compilacion -->
+  </build>
+  <testbeds>
+    <testbed score="8" type="proportional" onerror="halt">  <!-- Tipos: ver comentario de arriba -->
+      
+<testrun args="'There will be an answer, let it be' 'Too late, my time has come'" cout="-7" />      
+<testrun args="'I wanna make a supersonic man out of you' 'Open your eyes'" cout="-6" />      
+<testrun args="'Anyway the wind blows' 'I don t want to stop at all'" cout="-8" />      
+<testrun args="'You may say I m a dreamer' 'There will be an answer, let it be'" cout="5" />      
+<testrun args="'Body s aching all the time' 'Anyone can see'" cout="1" />      
+<testrun args="'Don t stop me now (yes I m havin  a good time)' 'That s why they call me Mister Fahrenheit'" cout="-16" />      
+<testrun args="'Mama, ooo' 'Don t stop me don t stop me'" cout="9" />      
+<testrun args="'Let it be, let it be, let it be, let it be' 'I m trav ling at the speed of light'" cout="3" />      
+<testrun args="'Ha da da ha ha haaa' 'I m a shooting star leaping through the sky'" cout="-1" />      
+<testrun args="'Two hundred degrees' 'Beelzebub has a devil put aside for me'" cout="18" />      
+<testrun args="'A brotherhood of man' 'Don t stop me don t stop me ah'" cout="-3" />      
+<testrun args="'It s easy if you try' 'I m burnin  through the sky yeah'" cout="84" />      
+<testrun args="'Ha da daa ha da da aaa' 'Shine until tomorrow, let it be'" cout="-11" />      
+<testrun args="'I wanna make a supersonic woman of you' 'If you wanna have a good time (wooh)'" cout="-70" />      
+<testrun args="'I m having a ball' 'A little high, little low'" cout="8" />      
+<testrun args="'Bismillah! No we will not let you go - let him go' 'Yeah, I m a rocket ship on my way to Mars'" cout="-23" />      
+<testrun args="'I m gonna go go go' 'I wonder if you can'" cout="-10" />      
+<testrun args="'Bismillah! No we will not let you go - let him go' 'Cause I m having a good time having a good time'" cout="-1" />      
+<testrun args="'Scaramouch, scaramouch will you do the fandango' 'Don t stop me now'" cout="15" />      
+<testrun args="'Don t stop me don t stop me ah' 'Imagine no possessions'" cout="-5" />      
+<testrun args="'Alright' 'Two hundred degrees'" cout="-19" />      
+<testrun args="'If you wanna have a good time just give me a call' 'I wanna make a supersonic woman of you'" cout="70" />      
+<testrun args="'Never let you go let me go' 'Cause I m having a good time having a good time'" cout="11" />      
+<testrun args="'Just give me a call (alright)' 'Let it be, let it be, let it be, let it be'" cout="-2" />      
+<testrun args="'No escape from reality' 'Nothing really matters nothing really matters to me'" cout="-84" />      
+<testrun args="'If I m not back again this time tomorrow' 'Whisper words of wisdom, let it be'" cout="-14" />      
+<testrun args="'Spare him his life from this monstrosity' 'I hope some day you ll join us'" cout="10" />      
+<testrun args="'Shine until tomorrow, let it be' 'Spare him his life from this monstrosity'" cout="-8" />      
+<testrun args="'Don t stop me don t stop me' 'I wanna make a supersonic man out of you'" cout="-5" />      
+<testrun args="'Gallileo, Gallileo,' 'Never let you go let me go'" cout="-7" />      
+<testrun args="'Mama, ooo (anyway the wind blows)' 'Never let me go ooo'" cout="-1" />      
+<testrun args="'Anyone can see' 'Mama, just killed a man'" cout="-12" />      
+<testrun args="'If I m not back again this time tomorrow' 'Easy come easy go will you let me go'" cout="4" />      
+<testrun args="'Pulled my trigger, now he s dead' 'Caught in a landslide'" cout="13" />      
+<testrun args="'Is this the real life?' 'I m a shooting star leaping through the sky'" cout="83" />      
+<testrun args="'And the world will be as one' 'Mama, ooo'" cout="-12" />      
+<testrun args="'Because I m easy come, easy go' 'Pulled my trigger, now he s dead'" cout="-14" />      
+<testrun args="'Imagine all the people sharing all the world, you' 'Whisper words of wisdom, let it be'" cout="-14" />      
+<testrun args="'A little high, little low' 'I hope some day you ll join us'" cout="-8" />      
+<testrun args="'Whisper words of wisdom, let it be' 'It isn t hard to do'" cout="14" />      
+<testrun args="'Imagine all the people sharing all the world, you' 'Bismillah! We will not let you go - let him go'" cout="7" />      
+<testrun args="'No hell below us' 'When I find myself in times of trouble, Mother Mary comes to me'" cout="-9" />      
+<testrun args="'Oh baby, can t do this to me baby' 'Just give me a call (alright)'" cout="5" />      
+<testrun args="'And when the broken hearted people living in the world agree' 'You may say I m a dreamer'" cout="-24" />      
+<testrun args="'Anyway the wind blows, doesn t really matter to me, to me' 'Scaramouch, scaramouch will you do the fandango'" cout="-18" />      
+<testrun args="'Oh, I m burnin  through the sky yeah' 'Imagine there s no heaven'" cout="6" />      
+<testrun args="'Nothing really matters nothing really matters to me' 'I m gonna go go go'" cout="5" />      
+<testrun args="'Spare him his life from this monstrosity' 'Don t stop me don t stop me'" cout="15" />      
+<testrun args="'I wonder if you can' 'Just give me a call (alright)'" cout="-1" />      
+<testrun args="'Ooh yeah, ooh yeah' 'I hope some day you ll join us'" cout="6" />      
+<testrun args="'I m trav ling at the speed of light' 'Speaking words of wisdom, let it be'" cout="-10" />      
+<testrun args="'Don t stop me now' 'Nothing to kill or die for'" cout="-10" />      
+<testrun args="'Ooh ooh ooh, I like it' 'Never let me go ooo'" cout="1" />      
+<testrun args="'I m trav ling at the speed of light' 'It s easy if you try'" cout="-84" />      
+<testrun args="'Just gotta get out just gotta get right outta here' 'That s why they call me Mister Fahrenheit'" cout="-10" />      
+<testrun args="'Imagine there s no heaven' 'I am a satellite I m out of control'" cout="77" />      
+<testrun args="'Speaking words of wisdom, let it be' 'I wonder if you can'" cout="10" />      
+<testrun args="'I m trav ling at the speed of light' 'Imagine no possessions'" cout="-77" />      
+<testrun args="'Mama, ooo (anyway the wind blows)' 'Anyway the wind blows'" cout="12" />      
+<testrun args="'Bismillah! We will not let you go let me go' 'Didn t mean to make you cry'" cout="-2" />
+    </testbed>
+  </testbeds>
+</testconf>
