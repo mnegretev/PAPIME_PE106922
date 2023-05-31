@@ -1,0 +1,211 @@
+
+<testconf language="C"> <!-- Soporta solo "C" y "Python" -->
+  <build score="2">   <!-- Cuantos puntos solo porque compile. En python esto se ignora -->
+    <flags>-lm</flags> <!-- Banderas de compilacion -->
+  </build>
+  <testbeds>
+    <testbed score="8" type="proportional" onerror="halt">  <!-- Tipos: ver comentario de arriba -->
+      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="3" cout="Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="19" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="19" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="6" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="3" cout="Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="19" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="19" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="6" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="19" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="3" cout="Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="4" cout="Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="3" cout="Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="6" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="16" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="3" cout="Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="9" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="7" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="19" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="1" cout="Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="14" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="13" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="12" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="6" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="8" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="6" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="10" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="11" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="2" cout="Hello world!_Hello world!_" />      
+<testrun args="5" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="15" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="18" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />      
+<testrun args="17" cout="Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_Hello world!_" />
+    </testbed>
+  </testbeds>
+</testconf>
