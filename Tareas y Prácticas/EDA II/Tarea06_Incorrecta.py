@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# DATA STRUCTURES AND ALGORITHMS I
+# DATA STRUCTURES AND ALGORITHMS II
 # FI-UNAM-2022-2
-# A S S I G N M E N T   2 5
+# A S S I G N M E N T   06
 # MATRIX CHAIN MULTIPLICATION
 #
 # Instructions:
@@ -14,6 +14,8 @@
 #
 # Modify only the sections marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
+#
+# This works was supported by UNAM-DGAPA under grant PAPIME PE106922
 #
 
 import sys
@@ -33,7 +35,8 @@ def chain_order(A, i, j, aux_m, aux_s):
     if aux_m[i][j] != None:
         return aux_m[i][j], aux_s[i][j]
     
-    q = sys.maxsize
+    q = 100000
+    s = "()"
     for k in range(i+1,j):
         m1, s1 = chain_order(A, i, k, aux_m, aux_s)
         m2, s2 = chain_order(A, k, j, aux_m, aux_s)
