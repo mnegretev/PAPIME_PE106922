@@ -59,8 +59,8 @@ if __name__ == '__main__':
     aux_m = [[None for i in range(len(A))] for i in range(len(A))]
     aux_s = [[None for i in range(len(A))] for i in range(len(A))]
     m,s = chain_order(A,0,len(A)-1, aux_m, aux_s)
-    print("Minimum number of scalar multiplications:")
-    print(m)
-    print("Optimal order of multiplication:")
+    #print("Minimum number of scalar multiplications:")
+    #print(str(m))
+    #print("Optimal order of multiplication:")
     print(s)
     

@@ -19,16 +19,20 @@ def is_bad(board, row, col):
     #
     # TODO:
     #
-    # Write a function to determine if it is a bad idea to put a queen
+    # Write a function to determine if it is safe to put a queen
     # in the coordinates [row, col]
     # given the current board configuration.
     # Hint: You can check the difference in X and Y between a queen
     # and the position of interest. If delta_X== 0, delta_Y==0 or delta_x=delta_y
     # then it is not a safe position.
-    # Return False if it is safe to put a queen in [row, col], i.e, if
-    # queen in [row, col] does not attack any other queen in board.
-    # Return True otherwise
     #
+    for x in range(len(board)):
+        for y in range(len(board[0])):
+            if board[x][y] != 0:
+                delta_x = abs(row - x)
+                delta_y = abs(col - y)
+                if delta_x == 0 or delta_y == 0 or delta_x == delta_y:
+                    return True
     return False
 
 def N_Queen(board, row, N):
@@ -42,14 +46,23 @@ def N_Queen(board, row, N):
     #
     # Recursive case:
     # - For all columns in row:
-    #     - If it is not bad to place a Queen in row,column then
+    #     - If it is safe to place a Queen in row,column then
     #         - Place Quenn in row, col
     #         - If placing Queen in row,col leads to a solution (check this recursively)
     #             - return True (it lead to a correct solution)
     #         - If it does not (the else of the previous if), then remove the placed Queen (this is the bakctrack)
     # - If all digits have been tried and nothing worked, return false (this triggers backtracking)
     #
-
+    
+    if row >= N:
+        return True
+    
+    for i in range(N):
+        if not is_bad(board, row, i):
+            board[row][i] = 1
+            if N_Queen(board, row + 1, N) == True:
+                return True
+            board[row][i] = 0
     return False
 
 def init_board(n):
@@ -61,11 +74,14 @@ def init_board(n):
     return board
 
 def print_board(board):
+    board_string = ""
     for x in range(len(board)):
-        row_string = ""
+        row_string = "["
         for y in range(len(board[0])):
             row_string += " Q" if board[x][y] == 1 else " ."
-        print(row_string)
+        row_string += "]"
+        board_string += row_string
+    print(board_string)
 
 def main(n):
     board = init_board(n)

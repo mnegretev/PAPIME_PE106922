@@ -1,0 +1,211 @@
+
+<testconf language="C"> <!-- Soporta solo "C" y "Python" -->
+  <build score="2">   <!-- Cuantos puntos solo porque compile. En python esto se ignora -->
+    <flags>-lm</flags> <!-- Banderas de compilacion -->
+  </build>
+  <testbeds>
+    <testbed score="8" type="proportional" onerror="halt">  <!-- Tipos: ver comentario de arriba -->
+      
+<testrun args="push 4 enq 2 push 5 pop pop push 5 enq 4 deq deq enq 5 deq push 4 push 9 push 6 enq 2 enq 6 push 1 " cout="Peek: 1 Tail: 6 Head: 2" />      
+<testrun args="push 3 push 5 push 6 enq 5 deq enq 1 push 9 pop push 4 " cout="Peek: 4 Tail: 1 Head: 1" />      
+<testrun args="push 2 enq 1 pop enq 9 enq 0 enq 6 enq 6 push 5 enq 3 push 4 pop enq 1 enq 1 " cout="Peek: 5 Tail: 1 Head: 1" />      
+<testrun args="enq 7 enq 4 enq 5 enq 2 enq 3 enq 5 push 8 push 2 pop enq 6 deq enq 1 deq enq 1 enq 0 pop push 2 pop push 7 " cout="Peek: 7 Tail: 0 Head: 5" />      
+<testrun args="enq 3 push 7 enq 9 push 6 pop enq 1 deq deq pop enq 8 push 5 enq 5 push 2 enq 5 pop enq 0 deq pop push 7 " cout="Peek: 7 Tail: 0 Head: 8" />      
+<testrun args="enq 6 push 5 deq enq 7 pop push 1 enq 9 " cout="Peek: 1 Tail: 9 Head: 7" />      
+<testrun args="enq 3 push 4 push 1 pop deq enq 1 push 1 " cout="Peek: 1 Tail: 1 Head: 1" />      
+<testrun args="push 0 push 3 push 2 enq 4 deq enq 4 deq push 8 enq 2 deq enq 5 enq 4 pop enq 0 pop deq push 9 push 0 enq 5 " cout="Peek: 0 Tail: 5 Head: 4" />      
+<testrun args="enq 2 enq 4 push 2 pop push 5 push 1 deq pop " cout="Peek: 5 Tail: 4 Head: 4" />      
+<testrun args="enq 4 push 3 push 5 pop enq 0 push 8 push 1 deq deq enq 6 enq 1 push 2 deq enq 2 deq push 8 " cout="Peek: 8 Tail: 2 Head: 2" />      
+<testrun args="push 5 enq 5 enq 5 push 7 deq deq enq 1 push 5 deq push 7 " cout="Peek: 7 " />      
+<testrun args="enq 0 enq 4 push 2 pop push 4 push 0 pop enq 0 pop " cout="Tail: 0 Head: 0" />      
+<testrun args="enq 4 enq 1 enq 1 enq 1 push 2 enq 6 deq push 0 pop enq 9 push 0 pop deq push 8 deq " cout="Peek: 8 Tail: 9 Head: 1" />      
+<testrun args="enq 6 enq 6 push 5 deq pop enq 4 push 8 deq enq 2 push 6 " cout="Peek: 6 Tail: 2 Head: 4" />      
+<testrun args="push 5 enq 6 enq 1 deq pop push 7 deq enq 9 " cout="Peek: 7 Tail: 9 Head: 9" />      
+<testrun args="push 1 push 9 enq 0 push 1 push 5 pop deq push 8 enq 2 push 3 deq push 8 push 8 push 7 push 1 enq 4 " cout="Peek: 1 Tail: 4 Head: 4" />      
+<testrun args="enq 5 push 5 push 6 enq 6 pop deq enq 6 " cout="Peek: 5 Tail: 6 Head: 6" />      
+<testrun args="push 1 push 9 push 5 push 4 push 4 enq 3 enq 2 pop deq push 8 pop push 5 " cout="Peek: 5 Tail: 2 Head: 2" />      
+<testrun args="enq 1 push 5 pop enq 9 enq 5 enq 6 push 5 deq pop enq 8 push 9 pop " cout="Tail: 8 Head: 9" />      
+<testrun args="enq 7 enq 9 push 4 push 0 pop enq 1 push 2 enq 7 pop push 5 " cout="Peek: 5 Tail: 7 Head: 7" />      
+<testrun args="enq 5 push 4 deq enq 3 deq push 5 push 8 push 9 push 4 " cout="Peek: 4 " />      
+<testrun args="push 0 enq 1 push 3 enq 0 push 9 pop deq " cout="Peek: 3 Tail: 0 Head: 0" />      
+<testrun args="push 6 enq 5 pop push 6 deq push 1 enq 6 enq 7 enq 0 enq 0 deq " cout="Peek: 1 Tail: 0 Head: 7" />      
+<testrun args="push 4 enq 2 pop push 9 push 3 pop pop push 6 push 4 " cout="Peek: 4 Tail: 2 Head: 2" />      
+<testrun args="push 3 push 9 push 0 enq 4 pop enq 0 deq " cout="Peek: 9 Tail: 0 Head: 0" />      
+<testrun args="push 4 enq 3 push 2 pop deq enq 1 " cout="Peek: 4 Tail: 1 Head: 1" />      
+<testrun args="push 0 push 8 push 4 push 3 push 1 push 4 enq 8 deq " cout="Peek: 4 " />      
+<testrun args="push 0 push 4 push 7 push 2 enq 6 enq 9 push 0 push 0 push 4 push 2 push 2 push 2 push 1 deq push 5 deq push 1 push 2 " cout="Peek: 2 " />      
+<testrun args="enq 8 push 5 enq 5 enq 9 enq 0 deq pop enq 0 push 1 " cout="Peek: 1 Tail: 0 Head: 5" />      
+<testrun args="push 9 push 1 enq 5 pop " cout="Peek: 9 Tail: 5 Head: 5" />      
+<testrun args="enq 6 push 2 enq 0 pop push 4 deq push 6 pop push 3 deq push 6 push 4 enq 3 push 0 deq enq 2 push 2 " cout="Peek: 2 Tail: 2 Head: 2" />      
+<testrun args="enq 2 push 2 push 2 deq enq 0 enq 7 enq 5 push 8 enq 8 deq pop deq enq 2 deq deq deq push 9 push 6 " cout="Peek: 6 " />      
+<testrun args="push 7 push 0 enq 2 deq push 9 enq 3 enq 1 push 2 deq " cout="Peek: 2 Tail: 1 Head: 1" />      
+<testrun args="push 2 push 4 push 8 enq 1 pop enq 7 deq pop " cout="Peek: 2 Tail: 7 Head: 7" />      
+<testrun args="push 0 push 0 enq 3 push 8 pop enq 4 deq enq 1 " cout="Peek: 0 Tail: 1 Head: 4" />      
+<testrun args="push 2 push 0 push 2 enq 4 " cout="Peek: 2 Tail: 4 Head: 4" />      
+<testrun args="push 5 push 1 push 1 push 6 enq 5 pop pop pop enq 1 push 9 enq 6 " cout="Peek: 9 Tail: 6 Head: 5" />      
+<testrun args="enq 8 push 2 enq 6 push 3 push 2 enq 1 " cout="Peek: 2 Tail: 1 Head: 8" />      
+<testrun args="push 5 enq 5 enq 8 enq 8 deq enq 2 pop enq 6 push 4 enq 3 push 9 push 6 deq push 2 pop enq 2 deq enq 6 pop " cout="Peek: 9 Tail: 6 Head: 2" />      
+<testrun args="enq 0 push 7 enq 3 push 5 push 7 enq 9 enq 6 deq pop push 5 pop push 7 deq pop " cout="Peek: 5 Tail: 6 Head: 9" />      
+<testrun args="push 9 push 0 push 8 push 6 push 2 push 1 push 4 " cout="Peek: 4 " />      
+<testrun args="push 3 push 4 enq 1 enq 0 deq enq 4 deq pop deq enq 6 pop enq 4 push 5 " cout="Peek: 5 Tail: 4 Head: 6" />      
+<testrun args="enq 2 enq 3 push 1 push 0 push 8 enq 8 push 1 push 5 enq 5 deq pop enq 6 deq pop push 6 deq enq 3 " cout="Peek: 6 Tail: 3 Head: 5" />      
+<testrun args="push 5 enq 1 enq 2 deq " cout="Peek: 5 Tail: 2 Head: 2" />      
+<testrun args="enq 0 enq 7 push 0 push 4 pop deq enq 8 " cout="Peek: 0 Tail: 8 Head: 7" />      
+<testrun args="push 9 push 4 enq 6 enq 3 enq 6 deq push 6 enq 5 deq push 5 " cout="Peek: 5 Tail: 5 Head: 6" />      
+<testrun args="push 3 enq 8 enq 1 push 6 enq 2 deq " cout="Peek: 6 Tail: 2 Head: 1" />      
+<testrun args="enq 8 push 8 deq push 0 push 5 enq 3 pop deq push 1 enq 6 pop enq 5 push 1 deq " cout="Peek: 1 Tail: 5 Head: 5" />      
+<testrun args="push 4 enq 6 push 8 enq 9 enq 2 deq " cout="Peek: 8 Tail: 2 Head: 9" />      
+<testrun args="enq 1 enq 1 enq 7 enq 2 push 8 pop push 7 deq deq " cout="Peek: 7 Tail: 2 Head: 7" />      
+<testrun args="enq 4 enq 8 push 7 deq push 0 push 3 " cout="Peek: 3 Tail: 8 Head: 8" />      
+<testrun args="enq 6 enq 8 push 2 pop enq 4 push 8 push 8 deq enq 0 deq enq 0 enq 1 push 2 enq 0 pop deq deq " cout="Peek: 8 Tail: 0 Head: 0" />      
+<testrun args="push 1 enq 6 enq 3 pop push 4 deq push 3 push 4 deq enq 0 push 4 deq push 1 enq 6 deq " cout="Peek: 1 " />      
+<testrun args="push 7 enq 5 deq enq 9 enq 3 push 4 push 2 deq enq 0 deq " cout="Peek: 2 Tail: 0 Head: 0" />      
+<testrun args="enq 8 push 2 pop push 9 enq 1 pop push 3 deq pop enq 1 push 2 enq 0 deq enq 8 pop " cout="Tail: 8 Head: 1" />      
+<testrun args="push 0 enq 4 enq 3 pop enq 2 push 3 pop enq 7 " cout="Tail: 7 Head: 4" />      
+<testrun args="enq 8 enq 1 push 4 pop push 9 pop push 2 pop " cout="Tail: 1 Head: 8" />      
+<testrun args="enq 3 push 1 deq push 4 push 5 push 6 enq 6 pop push 2 deq push 3 enq 5 enq 0 enq 3 push 3 push 7 enq 0 pop " cout="Peek: 3 Tail: 0 Head: 5" />      
+<testrun args="enq 9 push 8 enq 0 push 0 deq pop deq enq 2 deq push 4 push 9 push 1 push 0 " cout="Peek: 0 " />      
+<testrun args="push 4 push 0 enq 5 deq enq 8 deq enq 0 push 3 enq 3 enq 6 pop push 0 deq push 9 pop " cout="Peek: 0 Tail: 6 Head: 3" />      
+<testrun args="push 9 enq 0 enq 4 enq 7 push 5 enq 2 pop deq pop push 9 push 0 pop enq 8 pop enq 9 push 5 push 1 " cout="Peek: 1 Tail: 9 Head: 4" />      
+<testrun args="push 4 enq 5 enq 0 pop enq 9 push 4 deq deq enq 1 pop push 4 enq 7 push 0 " cout="Peek: 0 Tail: 7 Head: 9" />      
+<testrun args="push 2 enq 9 pop push 1 pop enq 2 push 9 deq deq enq 4 pop enq 2 enq 8 " cout="Tail: 8 Head: 4" />      
+<testrun args="enq 7 enq 4 enq 9 push 4 push 8 enq 8 enq 6 push 8 push 1 pop push 8 push 2 push 1 enq 6 enq 6 pop push 8 pop enq 0 " cout="Peek: 2 Tail: 0 Head: 7" />      
+<testrun args="enq 9 enq 4 push 3 pop enq 2 push 6 push 4 enq 2 pop enq 9 pop push 5 pop push 1 pop enq 1 push 1 " cout="Peek: 1 Tail: 1 Head: 9" />      
+<testrun args="push 1 push 4 push 6 enq 5 deq enq 3 enq 5 push 7 pop pop deq enq 4 push 9 enq 9 " cout="Peek: 9 Tail: 9 Head: 5" />      
+<testrun args="push 3 enq 5 deq push 6 " cout="Peek: 6 " />      
+<testrun args="enq 7 push 7 pop enq 9 enq 2 enq 1 enq 7 push 7 pop push 3 pop enq 0 push 4 push 0 " cout="Peek: 0 Tail: 0 Head: 7" />      
+<testrun args="push 5 push 4 push 8 push 5 enq 0 " cout="Peek: 5 Tail: 0 Head: 0" />      
+<testrun args="push 6 enq 9 deq push 8 enq 7 enq 7 enq 2 push 2 enq 1 pop deq pop deq enq 8 push 8 push 6 pop pop " cout="Peek: 6 Tail: 8 Head: 2" />      
+<testrun args="enq 2 enq 7 enq 2 push 9 enq 0 enq 1 push 7 deq pop pop push 8 push 6 deq enq 4 pop enq 4 " cout="Peek: 8 Tail: 4 Head: 2" />      
+<testrun args="push 4 push 1 push 1 push 6 push 4 enq 5 push 8 push 4 deq push 4 push 8 enq 6 " cout="Peek: 8 Tail: 6 Head: 6" />      
+<testrun args="push 5 enq 0 enq 0 enq 4 " cout="Peek: 5 Tail: 4 Head: 0" />      
+<testrun args="push 7 enq 6 enq 7 push 5 push 7 deq enq 8 enq 2 enq 6 deq deq push 3 " cout="Peek: 3 Tail: 6 Head: 2" />      
+<testrun args="push 4 enq 1 push 7 pop deq enq 1 push 6 deq enq 6 pop deq push 0 " cout="Peek: 0 " />      
+<testrun args="push 3 enq 9 deq enq 2 enq 4 pop enq 8 enq 8 push 1 push 7 pop pop push 1 pop enq 7 enq 3 push 0 " cout="Peek: 0 Tail: 3 Head: 2" />      
+<testrun args="enq 9 push 7 pop enq 0 enq 7 enq 8 push 0 pop enq 6 push 0 " cout="Peek: 0 Tail: 6 Head: 9" />      
+<testrun args="enq 7 push 1 push 7 pop enq 4 deq enq 7 push 4 push 0 pop enq 3 enq 5 enq 0 enq 7 enq 6 push 8 pop deq enq 7 " cout="Peek: 4 Tail: 7 Head: 7" />      
+<testrun args="push 1 enq 3 push 0 pop pop push 2 deq enq 2 pop push 1 pop push 4 pop enq 1 enq 6 push 8 push 2 " cout="Peek: 2 Tail: 6 Head: 2" />      
+<testrun args="enq 1 push 5 push 2 deq push 0 push 3 enq 7 pop " cout="Peek: 0 Tail: 7 Head: 7" />      
+<testrun args="enq 3 push 3 pop enq 3 push 8 pop push 6 pop enq 4 enq 2 push 8 " cout="Peek: 8 Tail: 2 Head: 3" />      
+<testrun args="enq 8 push 0 push 1 enq 0 push 6 push 5 pop pop push 3 deq enq 9 " cout="Peek: 3 Tail: 9 Head: 0" />      
+<testrun args="enq 5 push 7 deq enq 8 push 6 enq 2 push 0 pop push 3 " cout="Peek: 3 Tail: 2 Head: 8" />      
+<testrun args="enq 7 enq 8 enq 1 enq 3 enq 3 enq 3 enq 0 push 9 " cout="Peek: 9 Tail: 0 Head: 7" />      
+<testrun args="push 1 enq 1 deq push 4 push 1 push 6 enq 3 push 9 deq push 8 enq 5 deq enq 8 deq " cout="Peek: 8 " />      
+<testrun args="push 1 enq 8 deq push 4 enq 6 pop enq 6 " cout="Peek: 1 Tail: 6 Head: 6" />      
+<testrun args="push 9 push 0 enq 2 enq 3 " cout="Peek: 0 Tail: 3 Head: 2" />      
+<testrun args="push 3 push 1 push 7 push 8 push 5 push 9 push 3 enq 5 pop push 5 pop deq push 2 push 9 enq 3 enq 1 " cout="Peek: 9 Tail: 1 Head: 3" />      
+<testrun args="push 7 push 9 enq 6 enq 2 deq pop pop enq 1 push 8 pop push 1 push 0 deq enq 7 pop pop push 6 enq 3 push 9 " cout="Peek: 9 Tail: 3 Head: 1" />      
+<testrun args="enq 5 push 0 pop enq 9 enq 1 enq 0 push 8 enq 3 enq 0 enq 2 push 9 deq push 3 deq enq 2 push 5 deq " cout="Peek: 5 Tail: 2 Head: 0" />      
+<testrun args="enq 4 push 7 deq push 5 push 2 push 1 push 1 push 5 enq 0 deq enq 2 " cout="Peek: 5 Tail: 2 Head: 2" />      
+<testrun args="enq 5 push 7 deq push 8 push 6 push 6 enq 8 enq 0 push 0 deq enq 4 pop push 5 push 1 enq 6 enq 8 enq 3 push 6 push 0 " cout="Peek: 0 Tail: 3 Head: 0" />      
+<testrun args="push 5 push 9 enq 6 pop " cout="Peek: 5 Tail: 6 Head: 6" />      
+<testrun args="push 2 push 9 push 3 enq 4 pop pop deq enq 7 pop enq 0 push 1 " cout="Peek: 1 Tail: 0 Head: 7" />      
+<testrun args="enq 3 push 5 push 2 pop pop push 9 enq 0 push 9 pop push 7 pop enq 9 deq enq 7 " cout="Peek: 9 Tail: 7 Head: 0" />      
+<testrun args="enq 0 push 9 push 8 push 7 pop pop enq 4 enq 7 deq pop " cout="Tail: 7 Head: 4" />      
+<testrun args="enq 2 push 1 deq enq 6 pop " cout="Tail: 6 Head: 6" />      
+<testrun args="push 2 push 0 enq 1 enq 7 pop deq enq 2 deq enq 8 enq 5 push 8 push 7 deq enq 9 push 1 push 9 deq " cout="Peek: 9 Tail: 9 Head: 5" />      
+<testrun args="push 5 push 6 enq 9 enq 3 push 9 push 3 deq deq push 5 enq 5 enq 1 pop push 3 pop " cout="Peek: 3 Tail: 1 Head: 5" />      
+<testrun args="enq 2 enq 5 push 9 enq 0 deq enq 2 enq 8 deq deq " cout="Peek: 9 Tail: 8 Head: 2" />      
+<testrun args="push 6 enq 7 deq enq 7 pop enq 4 enq 1 enq 3 push 9 push 9 deq " cout="Peek: 9 Tail: 3 Head: 4" />      
+<testrun args="enq 3 push 1 deq enq 5 push 5 push 9 enq 4 pop deq enq 5 push 6 push 6 pop deq " cout="Peek: 6 Tail: 5 Head: 5" />      
+<testrun args="push 6 push 9 enq 2 deq enq 7 push 8 pop " cout="Peek: 9 Tail: 7 Head: 7" />      
+<testrun args="push 1 enq 9 deq enq 0 deq enq 9 push 6 push 3 deq push 6 enq 3 enq 2 deq deq push 6 push 4 enq 6 deq " cout="Peek: 4 " />      
+<testrun args="push 7 push 4 push 9 push 6 enq 0 deq push 2 push 7 push 9 push 2 push 4 push 0 push 8 enq 6 " cout="Peek: 8 Tail: 6 Head: 6" />      
+<testrun args="push 4 push 6 push 9 push 6 enq 5 " cout="Peek: 6 Tail: 5 Head: 5" />      
+<testrun args="push 7 push 8 enq 5 pop pop push 4 enq 7 " cout="Peek: 4 Tail: 7 Head: 5" />      
+<testrun args="push 9 push 2 enq 0 deq enq 4 push 5 push 1 push 0 enq 8 pop push 6 push 5 deq pop pop pop deq " cout="Peek: 5 " />      
+<testrun args="enq 6 push 4 deq enq 2 push 5 " cout="Peek: 5 Tail: 2 Head: 2" />      
+<testrun args="enq 6 enq 7 enq 1 push 9 push 9 push 4 push 8 deq pop enq 4 enq 7 deq push 3 push 0 deq enq 1 enq 8 deq " cout="Peek: 0 Tail: 8 Head: 7" />      
+<testrun args="push 8 push 7 push 4 enq 7 pop push 4 deq push 4 " cout="Peek: 4 " />      
+<testrun args="push 0 enq 2 enq 0 push 3 enq 6 pop pop push 4 enq 4 deq deq enq 1 enq 5 enq 2 push 7 " cout="Peek: 7 Tail: 2 Head: 6" />      
+<testrun args="push 5 push 0 push 6 enq 2 deq enq 9 deq " cout="Peek: 6 " />      
+<testrun args="push 7 push 9 push 9 push 2 push 0 push 9 push 5 enq 2 push 4 deq " cout="Peek: 4 " />      
+<testrun args="enq 1 push 3 pop push 8 push 4 deq push 5 push 6 enq 0 push 6 pop " cout="Peek: 6 Tail: 0 Head: 0" />      
+<testrun args="push 2 enq 8 push 2 pop enq 4 deq enq 0 pop push 1 deq deq push 2 push 1 push 7 enq 6 deq push 1 enq 3 " cout="Peek: 1 Tail: 3 Head: 3" />      
+<testrun args="enq 3 push 6 push 1 enq 6 deq deq push 1 push 0 enq 9 enq 6 push 3 " cout="Peek: 3 Tail: 6 Head: 9" />      
+<testrun args="push 0 push 3 enq 8 enq 0 deq deq enq 4 deq push 6 " cout="Peek: 6 " />      
+<testrun args="enq 9 push 4 deq push 8 " cout="Peek: 8 " />      
+<testrun args="enq 4 enq 8 enq 3 enq 8 enq 6 enq 3 push 2 deq " cout="Peek: 2 Tail: 3 Head: 8" />      
+<testrun args="enq 0 push 0 pop push 4 enq 9 deq deq enq 3 pop " cout="Tail: 3 Head: 3" />      
+<testrun args="enq 5 push 7 push 2 enq 6 pop pop push 9 push 9 deq enq 6 push 6 enq 8 push 8 push 5 enq 9 push 5 " cout="Peek: 5 Tail: 9 Head: 6" />      
+<testrun args="push 3 enq 6 pop push 5 enq 2 pop enq 8 enq 3 push 1 pop push 2 push 7 push 9 pop deq deq push 2 pop " cout="Peek: 7 Tail: 3 Head: 8" />      
+<testrun args="push 3 enq 2 deq enq 9 " cout="Peek: 3 Tail: 9 Head: 9" />      
+<testrun args="enq 8 enq 9 enq 1 enq 9 enq 0 push 4 pop push 5 pop enq 4 enq 4 push 2 " cout="Peek: 2 Tail: 4 Head: 8" />      
+<testrun args="enq 4 push 3 pop push 1 enq 1 pop " cout="Tail: 1 Head: 4" />      
+<testrun args="enq 7 enq 4 enq 9 push 2 pop push 6 deq push 7 deq push 9 deq enq 0 enq 1 pop pop enq 9 pop " cout="Tail: 9 Head: 0" />      
+<testrun args="enq 3 push 7 push 4 deq push 7 push 0 " cout="Peek: 0 " />      
+<testrun args="enq 1 enq 7 push 1 enq 5 enq 8 enq 0 enq 7 push 6 deq enq 7 push 1 deq " cout="Peek: 1 Tail: 7 Head: 5" />      
+<testrun args="push 7 push 4 enq 7 deq enq 3 " cout="Peek: 4 Tail: 3 Head: 3" />      
+<testrun args="push 2 push 1 enq 5 enq 3 deq pop push 8 enq 5 push 2 deq push 7 enq 3 pop push 3 " cout="Peek: 3 Tail: 3 Head: 5" />      
+<testrun args="enq 6 push 6 enq 0 pop enq 3 enq 8 enq 4 enq 4 enq 6 enq 1 enq 4 enq 7 push 0 enq 8 pop push 9 push 4 " cout="Peek: 4 Tail: 8 Head: 6" />      
+<testrun args="enq 9 enq 2 enq 8 enq 9 enq 9 " cout="Tail: 9 Head: 9" />      
+<testrun args="enq 7 push 5 pop push 4 deq push 8 enq 8 deq enq 5 " cout="Peek: 8 Tail: 5 Head: 5" />      
+<testrun args="enq 3 enq 4 enq 7 enq 1 push 5 push 4 enq 8 push 6 enq 6 push 8 enq 3 pop pop deq enq 2 deq " cout="Peek: 4 Tail: 2 Head: 7" />      
+<testrun args="enq 8 enq 8 push 4 push 7 enq 9 enq 5 deq pop push 3 " cout="Peek: 3 Tail: 5 Head: 8" />      
+<testrun args="push 2 enq 9 deq enq 3 enq 4 enq 9 push 6 enq 1 deq push 1 push 3 enq 2 " cout="Peek: 3 Tail: 2 Head: 4" />      
+<testrun args="enq 2 push 1 pop push 1 enq 0 enq 4 deq deq enq 7 deq deq enq 2 pop enq 0 push 0 pop push 8 " cout="Peek: 8 Tail: 0 Head: 2" />      
+<testrun args="push 9 push 8 push 6 enq 2 enq 9 enq 9 pop enq 0 deq deq pop " cout="Peek: 9 Tail: 0 Head: 9" />      
+<testrun args="push 8 enq 1 pop enq 6 " cout="Tail: 6 Head: 1" />      
+<testrun args="enq 6 push 9 pop push 3 enq 1 deq enq 3 " cout="Peek: 3 Tail: 3 Head: 1" />      
+<testrun args="push 6 enq 9 pop push 3 push 5 pop pop push 8 " cout="Peek: 8 Tail: 9 Head: 9" />      
+<testrun args="enq 5 push 6 pop push 3 push 4 deq push 4 push 1 enq 1 pop enq 8 " cout="Peek: 4 Tail: 8 Head: 1" />      
+<testrun args="enq 7 enq 4 enq 8 enq 6 push 6 deq enq 9 enq 2 push 5 deq enq 3 deq push 3 " cout="Peek: 3 Tail: 3 Head: 6" />      
+<testrun args="push 3 push 4 enq 5 push 5 deq push 2 push 8 push 3 push 3 enq 4 push 3 deq enq 5 " cout="Peek: 3 Tail: 5 Head: 5" />      
+<testrun args="enq 8 enq 1 push 0 push 1 enq 8 pop pop enq 4 push 3 deq push 1 push 6 deq " cout="Peek: 6 Tail: 4 Head: 8" />      
+<testrun args="push 1 push 3 enq 2 enq 9 pop pop enq 2 enq 9 push 7 enq 9 deq enq 7 deq push 3 enq 6 enq 3 pop deq " cout="Peek: 7 Tail: 3 Head: 9" />      
+<testrun args="push 6 enq 2 push 1 enq 0 deq deq " cout="Peek: 1 " />      
+<testrun args="enq 6 enq 7 push 6 deq enq 0 " cout="Peek: 6 Tail: 0 Head: 7" />      
+<testrun args="enq 5 enq 3 push 5 pop enq 1 push 0 enq 7 deq deq deq push 2 enq 5 deq enq 1 deq pop pop " cout="Tail: 1 Head: 1" />      
+<testrun args="enq 9 enq 1 push 0 enq 4 " cout="Peek: 0 Tail: 4 Head: 9" />      
+<testrun args="push 2 push 8 enq 2 deq enq 2 push 6 push 8 enq 3 enq 5 pop deq enq 8 pop deq enq 9 push 8 enq 4 " cout="Peek: 8 Tail: 4 Head: 5" />      
+<testrun args="push 0 push 4 push 1 push 8 enq 3 enq 9 pop enq 4 deq " cout="Peek: 1 Tail: 4 Head: 9" />      
+<testrun args="push 8 enq 4 push 7 deq push 6 push 1 enq 7 push 1 " cout="Peek: 1 Tail: 7 Head: 7" />      
+<testrun args="push 4 push 4 enq 6 enq 3 push 0 pop push 6 pop enq 0 deq push 6 push 1 pop pop push 0 pop " cout="Peek: 4 Tail: 0 Head: 3" />      
+<testrun args="push 3 enq 6 deq enq 1 deq enq 3 deq enq 5 deq push 5 push 6 push 6 push 9 enq 6 push 2 enq 8 push 4 enq 0 push 7 " cout="Peek: 7 Tail: 0 Head: 6" />      
+<testrun args="push 8 push 5 enq 0 push 1 deq push 7 push 1 push 6 enq 9 push 6 push 9 enq 4 enq 8 deq deq " cout="Peek: 9 Tail: 8 Head: 8" />      
+<testrun args="push 3 push 7 push 8 enq 5 pop pop pop push 2 push 3 pop push 4 enq 8 push 8 deq push 1 enq 7 pop push 2 enq 7 " cout="Peek: 2 Tail: 7 Head: 8" />      
+<testrun args="push 9 push 1 push 3 push 3 enq 6 pop deq " cout="Peek: 3 " />      
+<testrun args="enq 5 push 1 push 1 enq 5 enq 2 pop deq pop push 9 push 7 pop " cout="Peek: 9 Tail: 2 Head: 5" />      
+<testrun args="push 2 push 5 push 7 enq 0 enq 5 deq deq push 3 push 5 " cout="Peek: 5 " />      
+<testrun args="push 0 enq 4 push 2 enq 9 pop pop enq 0 enq 7 push 6 pop enq 9 push 0 push 2 enq 2 push 1 enq 0 " cout="Peek: 1 Tail: 0 Head: 4" />      
+<testrun args="enq 2 enq 4 push 8 deq pop push 1 pop " cout="Tail: 4 Head: 4" />      
+<testrun args="enq 3 enq 2 enq 9 push 7 deq " cout="Peek: 7 Tail: 9 Head: 2" />      
+<testrun args="enq 1 enq 4 enq 5 push 6 deq deq enq 5 pop push 0 enq 1 deq push 3 " cout="Peek: 3 Tail: 1 Head: 5" />      
+<testrun args="push 4 enq 4 enq 1 enq 6 enq 6 deq enq 9 enq 8 enq 4 push 8 " cout="Peek: 8 Tail: 4 Head: 1" />      
+<testrun args="enq 2 push 6 pop enq 7 push 2 pop push 1 " cout="Peek: 1 Tail: 7 Head: 2" />      
+<testrun args="push 5 push 8 push 4 push 7 enq 6 enq 2 enq 3 deq push 0 pop enq 6 deq push 4 enq 7 deq pop pop " cout="Peek: 4 Tail: 7 Head: 6" />      
+<testrun args="enq 9 push 5 enq 1 pop enq 9 enq 0 enq 5 enq 5 push 4 deq " cout="Peek: 4 Tail: 5 Head: 1" />      
+<testrun args="push 8 enq 2 push 6 deq enq 3 deq enq 6 enq 7 push 1 enq 6 pop push 4 pop deq pop enq 4 " cout="Peek: 8 Tail: 4 Head: 7" />      
+<testrun args="push 5 enq 3 enq 9 pop push 4 enq 2 enq 0 enq 8 pop enq 2 enq 2 enq 9 push 9 enq 3 enq 1 deq push 5 pop " cout="Peek: 9 Tail: 1 Head: 9" />      
+<testrun args="enq 4 push 1 enq 8 enq 2 " cout="Peek: 1 Tail: 2 Head: 4" />      
+<testrun args="enq 2 push 0 pop enq 8 enq 5 push 7 enq 3 push 2 push 0 enq 8 push 2 push 4 " cout="Peek: 4 Tail: 8 Head: 2" />      
+<testrun args="push 2 push 6 enq 9 push 0 push 6 deq enq 8 push 7 pop push 1 push 2 push 9 deq " cout="Peek: 9 " />      
+<testrun args="push 8 push 6 enq 1 deq enq 2 pop deq push 7 push 0 push 0 push 9 enq 4 enq 4 push 3 deq deq push 6 push 4 enq 2 " cout="Peek: 4 Tail: 2 Head: 2" />      
+<testrun args="push 3 enq 1 enq 6 push 8 push 7 deq pop pop enq 9 deq deq enq 4 enq 1 pop push 2 push 4 push 2 push 2 " cout="Peek: 2 Tail: 1 Head: 4" />      
+<testrun args="push 7 push 2 enq 3 push 4 push 3 " cout="Peek: 3 Tail: 3 Head: 3" />      
+<testrun args="enq 5 enq 2 enq 9 enq 2 enq 9 push 3 deq deq deq push 0 push 6 push 1 enq 4 deq enq 2 " cout="Peek: 1 Tail: 2 Head: 9" />      
+<testrun args="enq 9 enq 9 enq 8 push 4 pop enq 7 " cout="Tail: 7 Head: 9" />      
+<testrun args="push 9 enq 8 enq 8 deq pop enq 7 " cout="Tail: 7 Head: 8" />      
+<testrun args="enq 5 push 9 push 1 pop enq 5 push 1 enq 9 enq 7 deq deq pop pop push 3 pop enq 5 enq 2 push 8 deq pop " cout="Tail: 2 Head: 7" />      
+<testrun args="push 7 enq 8 push 0 push 3 " cout="Peek: 3 Tail: 8 Head: 8" />      
+<testrun args="enq 5 enq 8 enq 0 push 2 deq enq 2 pop enq 3 push 8 " cout="Peek: 8 Tail: 3 Head: 8" />      
+<testrun args="push 6 push 7 push 0 enq 8 push 5 enq 9 pop deq deq enq 1 push 6 pop push 4 push 8 push 2 enq 6 " cout="Peek: 2 Tail: 6 Head: 1" />      
+<testrun args="push 1 enq 5 enq 7 push 5 push 3 enq 0 deq push 0 push 9 " cout="Peek: 9 Tail: 0 Head: 7" />      
+<testrun args="enq 6 enq 6 push 5 deq enq 6 pop push 0 pop push 1 push 5 enq 5 deq pop " cout="Peek: 1 Tail: 5 Head: 6" />      
+<testrun args="push 7 push 1 push 1 enq 3 push 9 enq 3 enq 3 " cout="Peek: 9 Tail: 3 Head: 3" />      
+<testrun args="push 8 push 2 push 7 push 4 push 1 enq 9 deq enq 6 deq push 6 push 5 push 4 enq 8 push 4 deq enq 3 deq enq 2 " cout="Peek: 4 Tail: 2 Head: 2" />      
+<testrun args="enq 1 enq 0 push 3 push 8 " cout="Peek: 8 Tail: 0 Head: 1" />      
+<testrun args="push 2 push 4 push 3 push 1 enq 6 " cout="Peek: 1 Tail: 6 Head: 6" />      
+<testrun args="push 9 push 6 enq 4 push 2 deq enq 1 enq 4 pop " cout="Peek: 6 Tail: 4 Head: 1" />      
+<testrun args="push 9 push 2 push 7 push 2 enq 3 enq 5 pop " cout="Peek: 7 Tail: 5 Head: 3" />      
+<testrun args="push 3 push 3 push 6 enq 5 deq push 5 push 5 push 5 push 5 push 2 push 3 push 9 push 9 enq 2 pop " cout="Peek: 9 Tail: 2 Head: 2" />      
+<testrun args="enq 9 enq 5 enq 2 push 2 deq push 6 deq pop push 5 pop deq push 0 push 0 push 6 push 5 enq 6 deq " cout="Peek: 5 " />      
+<testrun args="push 3 push 9 enq 9 deq push 8 push 0 push 9 push 7 push 2 enq 2 pop deq push 5 push 8 push 1 enq 9 deq push 9 " cout="Peek: 9 " />      
+<testrun args="enq 7 enq 8 enq 8 enq 8 push 3 push 4 enq 4 push 1 deq enq 8 deq push 6 " cout="Peek: 6 Tail: 8 Head: 8" />      
+<testrun args="push 3 enq 2 deq enq 6 enq 1 deq deq push 5 enq 6 deq push 9 enq 7 enq 7 push 1 enq 1 pop pop pop push 8 " cout="Peek: 8 Tail: 1 Head: 7" />      
+<testrun args="enq 9 enq 2 push 6 pop push 3 pop push 6 " cout="Peek: 6 Tail: 2 Head: 9" />      
+<testrun args="push 8 push 8 push 2 push 3 enq 2 deq push 1 enq 7 deq " cout="Peek: 1 " />      
+<testrun args="enq 9 push 5 push 7 push 0 enq 2 push 4 deq enq 4 push 2 enq 0 push 5 enq 7 pop push 4 enq 7 pop push 1 " cout="Peek: 1 Tail: 7 Head: 2" />
+    </testbed>
+  </testbeds>
+</testconf>

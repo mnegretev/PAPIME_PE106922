@@ -1,0 +1,28 @@
+
+<testconf language="python"> <!-- Soporta solo "C" y "Python" -->
+  <testbeds>
+    <testbed score="10" type="proportional" onerror="None">  <!-- Tipos: ver comentario de arriba -->
+      
+<testrun args="8" cout="22" />      
+<testrun args="6" cout="17" />      
+<testrun args="7" cout="18" />      
+<testrun args="4" cout="10" />      
+<testrun args="2" cout="5" />      
+<testrun args="5" cout="13" />      
+<testrun args="5" cout="13" />      
+<testrun args="5" cout="13" />      
+<testrun args="6" cout="17" />      
+<testrun args="6" cout="17" />      
+<testrun args="5" cout="13" />      
+<testrun args="7" cout="18" />      
+<testrun args="7" cout="18" />      
+<testrun args="2" cout="5" />      
+<testrun args="3" cout="8" />      
+<testrun args="8" cout="22" />      
+<testrun args="6" cout="17" />      
+<testrun args="4" cout="10" />      
+<testrun args="9" cout="25" />      
+<testrun args="2" cout="5" />
+    </testbed>
+  </testbeds>
+</testconf>
