@@ -1,7 +1,7 @@
 # PAPIME_PE106922
 Entregables del proyecto PAPIME PE106922 "Herramientas en línea para la evaluación automática de tareas y prácticas de programación"
 
-##Contenido
+https://github.com/mnegretev/PAPIME_PE106922/assets/17507149/f71f7fcd-1038-4ecf-80b0-bf4d793efd45
 
 ### Tareas y prácticas
 Se propone un conjunto de plantillas en lenguajes C y Python que el alumno debe completar. Estas tareas consisten en problemas sencillos típicos de las ciencias de la computación. El objetivo de las plantillas en lenguaje C es que el alumno comprenda conceptos como:
