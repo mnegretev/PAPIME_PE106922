@@ -14,6 +14,9 @@
  *     Hello world!
  *     Hello world!
  * MODIFY ONLY THE SECTIONS MARKED WITH THE 'TODO' COMMENT
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>

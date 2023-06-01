@@ -1,7 +1,7 @@
 /*
  * DATA STRUCTURES AND ALGORITHMS I
  * FI-UNAM-2022-2
- * P R A C T I C E   1
+ * P R A C T I C E   0 1
  * MATRIX TRANSPOSE
  *
  * Instructions:
@@ -13,6 +13,9 @@
  * The program must print both the original and the transposed matrix.
  * MODIFY ONLY THE SECTIONS MARKED WITH THE 'TODO' COMMENT
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>

@@ -16,6 +16,9 @@
  * THE ARRAY NOTATION [] IS NOT ALLOWED. USE POINTERS INSTEAD.
  * DON'T MODIFY THE MAIN FUNCTION.
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include <stdio.h>

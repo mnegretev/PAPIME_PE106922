@@ -13,6 +13,9 @@
  * ONLY MODIFY THE SECTIONS MARKED WITH THE 'TODO' COMMENT.
  * DON'T MODIFY THE MAIN FUNCTION.
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>

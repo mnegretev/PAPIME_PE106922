@@ -8,6 +8,9 @@
  * Write an algorithm to generate the first 'n' Fibonacci numbers.
  * Consider [0,1] as the first two numbers.
  * MODIFY ONLY THE SECTION MARKED WITH THE 'TODO' COMMENT
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>
