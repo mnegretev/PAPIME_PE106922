@@ -3,6 +3,7 @@
  * FI-UNAM-2022-2
  * A S S I G N M E N T   01
  * HELLO WORLD
+ * Author: Full name
  *
  * Instructions:
  * Write a program to print 'hello world' as many times as
@@ -14,6 +15,8 @@
  *     Hello world!
  *     Hello world!
  * MODIFY ONLY THE SECTIONS MARKED WITH THE 'TODO' COMMENT
+ *
+ * Project supported by UNAM-DGAPA under grant PAPIME PE106922
  */
 
 #include<stdio.h>

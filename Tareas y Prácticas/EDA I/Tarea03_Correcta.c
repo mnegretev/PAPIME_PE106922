@@ -4,6 +4,8 @@
  * A S S I G N M E N T   03
  * LCD AND GCD
  *
+ * Author: Student full name
+ *
  * Instructions:
  * Write a program to calculate the Least Common Multiple and the
  * Greatest Common Divisor of two positive integers.
@@ -11,6 +13,8 @@
  * THE USE OF EXTRA LIBRARIES IS NOT ALLOWED
  * MODIFY ONLY THE SECTIONS MARKED WITH THE 'TODO' COMMENT
  * DON'T ADD ANY PRINTF FUNCTION
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
  */
 
 #include<stdio.h>
