@@ -33,10 +33,10 @@ IMPORTANTE: Estos scripts se encuentran dentro del servidor de la página y se i
 
 Como se explica en el video de ejemplo, cada evaluador requiere de un archivo XML donde se especifican los parámetros de evaluación, tales como el lenguaje de programación, el número y tipo de pruebas y los puntos a otorgar por cada rubro. En esta carpeta se incluyen ejemplos de estos archivos XML. 
 
-# Listas de cotejo
+### Listas de cotejo
 
 Contiene documentos donde se explican algunas de las tareas y prácticas y se detallan los puntos a verificar en cada código fuente. Estas listas de cotejo se usaron como base para diseñar la página web para evaluación automática de tareas. 
 
-# Media
+### Media
 
 Contiene el video de ejemplo. 
