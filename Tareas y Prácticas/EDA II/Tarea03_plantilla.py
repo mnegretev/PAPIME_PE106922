@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # DATA STRUCTURES AND ALGORITHMS I
 # FI-UNAM-2022-2
-# A S S I G N M E N T   2 1
+# A S S I G N M E N T   03
 # CHANGE MAKING BY GREEDY ALGORITHMS
 #
 # Instructions:
@@ -9,6 +9,9 @@
 # Modify only the functions marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
 #
+# This work was supported by UNAM-DGAPA under grant PAPIME PE106922
+#
+
 
 import sys
 

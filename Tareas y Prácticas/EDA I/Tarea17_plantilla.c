@@ -1,7 +1,7 @@
 /*
  * ESTRUCTURAS DE DATOS Y ALGORITMOS I
  * FACULTAD DE INGENIERIA, UNAM, 2021-1
- * P R A C T I C E   05
+ * A S S I G N M E N T    17
  * Instructions:
  * Implement a Stack using two queues and a Queue using two stacks. 
  * Don't modify the Stack.h nor Queue.h files.
@@ -18,6 +18,9 @@
  * MODIFY ONLY THE SECTIONS MARKED WITH THE 'TODO' COMMENT.
  * DON'T MODIFY THE MAIN FUNCTION.
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include <stdio.h>

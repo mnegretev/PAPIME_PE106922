@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # DATA STRUCTURES AND ALGORITHMS I
 # FI-UNAM-2022-2
-# P R A C T I C E   1 0
+# P R A C T I C E   01
 # QUICK SORT
 #
 # Instructions:
@@ -12,6 +12,9 @@
 # Modify only the functions marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
 #
+# This work was supported by UNAM-DGAPA under grant PAPIME PE106922
+#
+
 
 import sys
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # ESTRUCTURAS DE DATOS Y ALGORITMOS I
-# FACULTAD DE INGENIERÍA, UNAM, 2021-2
-# A S S I G N M E N T   1 9
+# FACULTAD DE INGENIERIA, UNAM, 2021-2
+# A S S I G N M E N T   01
 # Instructions:
 # Write a program to sort, in ascending order, an array of integers using the
 # Bubble Sort algorithm.
@@ -10,6 +10,9 @@
 # Modify only the functions marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
 #
+# This work was supported by UNAM-DGAPA under grant PAPIME PE106922
+#
+
 
 import sys
 

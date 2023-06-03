@@ -1,7 +1,7 @@
 /*
  * DATA STRUCTURES AND ALGORITHMS I
  * FI-UNAM-2022-2
- * A S S I G N M E N T   05
+ * A S S I G N M E N T   06
  * STRING PERMUTATION
  *
  * Instructions:
@@ -12,6 +12,9 @@
  * THE USE OF EXTRA LIBRARIES IS NOT ALLOWED.
  * MODIFY ONLY THE is_permutation FUNCTION.
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>

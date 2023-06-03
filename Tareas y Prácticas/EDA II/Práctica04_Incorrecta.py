@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # DATA STRUCTURES AND ALGORITHMS I
 # FACULTAD DE INGENIERÍA, UNAM, 2021-1
-# P R A C T I C E   1 2
+# P R A C T I C E   04
 # SUDOKU SOLVER
 #
 # Instructions:
@@ -12,6 +12,9 @@
 # Modify only the sections marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
 #
+# This work was supported by UNAM-DGAPA under grant PAPIME PE106922
+#
+
 
 import sys
 

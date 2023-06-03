@@ -1,7 +1,7 @@
 /*
  * ESTRUCTURA DE DATOS Y ALGORITMOS I
  * FACULTAD DE INGENIERIA, UNAM, 2019-1
- * A S S I G N M E N T   04
+ * A S S I G N M E N T   09
  * Instructions:
  * Write a program to determine if a string is one-edit away of another string..
  * A string S1 is said to be a one-edit of another string S2 if ONLY ONE of the following conditions is held:
@@ -17,6 +17,9 @@
  * The output of the program must be 1, if S1 is one-edit away of S2, and 0, otherwise.
  * THE USE OF EXTRA LIBRARIES IS NOT ALLOWED
  * MODIFY ONLY THE is_one_edit FUNCTION AND THE string_length FUNCTION
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>

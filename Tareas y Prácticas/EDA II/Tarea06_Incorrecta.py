@@ -15,7 +15,7 @@
 # Modify only the sections marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
 #
-# This works was supported by UNAM-DGAPA under grant PAPIME PE106922
+# This work was supported by UNAM-DGAPA under grant PAPIME PE106922
 #
 
 import sys

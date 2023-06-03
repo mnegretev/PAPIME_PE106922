@@ -8,12 +8,13 @@
 # Complete the code to calculate the right ascension, declination, azimuth and
 # elevation of the Sun, Moon, Mercury, Venus, Mars, Jupiter and Saturn, for a given date and time.
 # Declination and Azimuth should be calculated for an observer located in Mexico City.
-# Check needed equations on
-# https://github.com/mnegretev/PAPIME_PE112120/blob/master/Observaci%C3%B3n%20Astron%C3%B3mica/Resumen_de_Ecuaciones/Resumen_de_Ecuaciones.pdf
 #
 # Modify only the functions marked with the TODO comment. 
 # DON'T ADD ANY 'print' FUNCTION.
 #
+# This work was supported by UNAM-DGAPA under grant PAPIME PE106922
+#
+
 
 import sys
 import datetime

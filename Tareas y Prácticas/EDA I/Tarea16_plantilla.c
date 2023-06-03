@@ -1,7 +1,7 @@
 /*
  * ESTRUCTURA DE DATOS Y ALGORITMOS I
  * FACULTAD DE INGENIERIA, UNAM, 2020-1
- * A S S I G N M E N T   09
+ * A S S I G N M E N T   16
  * URLIFY A STRING 
  *
  * Instructions:
@@ -17,6 +17,9 @@
  * DON'T ADD ANY LIBRARY
  * DON'T MODIFY THE MAIN FUNCTION.
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>

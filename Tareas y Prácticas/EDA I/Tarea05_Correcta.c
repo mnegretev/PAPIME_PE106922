@@ -1,7 +1,7 @@
 /*
  * DATA STRUCTURES AND ALGORITHMS I
  * FI-UNAM-2022-2
- * A S S I G N M E N T   04
+ * A S S I G N M E N T   05
  * LEXICOGRAPHIC STRING COMPARISON
  *
  * Instructions:
@@ -12,6 +12,9 @@
  * THE USE OF THE STRCMP FUNCTION INCLUDED IN THE STRING LIBRARY IS NOT ALLOWED
  * MODIFY ONLY THE string_compare FUNCTION
  * DON'T ADD ANY 'printf' FUNCTION.
+ *
+ * This work was supported by UNAM-DGAPA under grant PAPIME-PE106922
+ *
  */
 
 #include<stdio.h>
