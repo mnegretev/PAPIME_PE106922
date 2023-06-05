@@ -29,7 +29,7 @@ int string_length(char* str)
     char* aux = str;
     while(*str)
 	str++;
-    return str - aux;
+    return *str - *aux;
 }
 
 int is_one_edit_replace(char* str1, char* str2)

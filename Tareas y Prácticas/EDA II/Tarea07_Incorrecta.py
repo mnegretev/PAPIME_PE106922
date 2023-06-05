@@ -35,8 +35,8 @@ def is_bad(board, row, col):
                 delta_x = abs(row - x)
                 delta_y = abs(col - y)
                 if delta_x == 0 or delta_y == 0 or delta_x == delta_y:
-                    return True
-    return False
+                    return False
+    return True
 
 def N_Queen(board, row, N):
     #

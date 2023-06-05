@@ -40,7 +40,7 @@ def chain_order(A, i, j, aux_m, aux_s):
     for k in range(i+1,j):
         m1, s1 = chain_order(A, i, k, aux_m, aux_s)
         m2, s2 = chain_order(A, k, j, aux_m, aux_s)
-        m  = m1 + m2 +  A[i]*A[k]*A[j]
+        m  = m1 + m2# +  A[i]*A[k]*A[j]
         if m < q:
             q = m
             s = "(" + s1 + s2 + ")"

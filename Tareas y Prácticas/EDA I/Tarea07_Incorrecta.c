@@ -48,8 +48,8 @@ struct ComplexPolar add_two_complex(struct ComplexCartesian c1, struct ComplexCa
      */
     struct ComplexPolar r_polar;
     struct ComplexCartesian r_cart;
-    r_cart.real = c1.real + c2.real;
-    r_cart.img  = c1.img  + c2.img;
+    r_cart.real = c1.real + c2.img;
+    r_cart.img  = c1.img  + c2.real;
     r_polar.magnitude = sqrt(r_cart.real*r_cart.real + r_cart.img*r_cart.img);
     r_polar.angle     = atan2(r_cart.img, r_cart.real);
     return r_polar;

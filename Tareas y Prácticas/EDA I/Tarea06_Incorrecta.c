@@ -54,6 +54,8 @@ int is_permutation(char* str1, char* str2)
     for(i=0; i < 256; i++)
 	if(counter1[i] != counter2[i])
 	    return 0;
+        else
+            return 1;
     return 1;
 }
 

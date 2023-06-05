@@ -30,7 +30,7 @@ int is_leap_year(int year)
      * Gregorian Calendar. 
      * https://en.wikipedia.org/wiki/Leap_year
      */
-    return 0;
+    return year%4 == 0;
 }
 
 int main(int argc, char** argv)

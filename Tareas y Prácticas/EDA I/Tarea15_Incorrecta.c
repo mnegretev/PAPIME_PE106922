@@ -111,7 +111,7 @@ long int find_zeros_and_nines_multiple(int n)
         multiple = atol(head);
         queue_enqueue(&Q, strcat(strdup(head), "0"));
         queue_enqueue(&Q, strcat(strdup(head), "9"));
-    }while(multiple % n != 0);
+    }while(multiple % n == 0);
     return multiple;
 }
 

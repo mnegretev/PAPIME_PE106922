@@ -31,7 +31,7 @@ double integrate_by_trapezoidal_rule(double a, double b, double step, double (*f
      */
     double result = 0;
     for(; a<b; a+=step)
-        result += step*((*f)(a) + (*f)(a+step))/2.0;
+        result += step*((*f)(a) + (*f)(a+step));
     return result;
 }
 

@@ -28,8 +28,8 @@ def merge_two_sorted_arrays(A,B):
     #
     i = 0
     j = 0
-    nA = len(A)
-    nB = len(B)
+    nA = len(A)-1
+    nB = len(B)-1
     C = []
     while (i+j)<(nA+nB):
         a = A[i] if i < nA else float("inf")

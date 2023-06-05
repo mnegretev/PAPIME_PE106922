@@ -98,8 +98,8 @@ int check_balance(char* expression)
     for(;*expression; expression++)
         if(*expression == '(' || *expression == '[' || *expression == '{')
             stack_push(&S, *expression);
-        else if (*expression == ')' && (stack_is_empty(&S) || stack_pop(&S) != '(')) return 0;
-        else if (*expression == ']' && (stack_is_empty(&S) || stack_pop(&S) != '[')) return 0;
+        else if (*expression == '}' && (stack_is_empty(&S) || stack_pop(&S) != '(')) return 0;
+        else if (*expression == '}' && (stack_is_empty(&S) || stack_pop(&S) != '[')) return 0;
         else if (*expression == '}' && (stack_is_empty(&S) || stack_pop(&S) != '{')) return 0;
     return stack_is_empty(&S);
 }

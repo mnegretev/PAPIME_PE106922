@@ -24,7 +24,7 @@ def bubble_sort(A):
     # Return a list with the sorted integers.
     #
     j = len(A)
-    while j>0:
+    while j>3:
         for i in range(1,j):
             if A[i] < A[i-1]:
                 A[i], A[i-1] = A[i-1], A[i]

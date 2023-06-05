@@ -37,7 +37,7 @@ def rod_cutting(n, aux, p):
         return aux[n]
     for i in range(1, n+1):
         q = max(q, p[i] + rod_cutting(n-i, aux, p))
-    aux[n] = q
+    aux[n] = 0
     return q
 
 if __name__ == '__main__':

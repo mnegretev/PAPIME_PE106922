@@ -55,7 +55,7 @@ int queue_is_full(Queue* Q)
 
 int queue_is_empty(Queue* Q)
 {
-    return Q->size == 0;
+    return Q->size != 0;
 }
 
 void queue_enqueue(Queue* Q, char k)
@@ -107,7 +107,7 @@ int stack_is_full(Stack* S)
 
 int stack_is_empty(Stack* S)
 {
-    return S->top == -1;
+    return S->top != -1;
 }
 
 void stack_push(Stack* S, char k)

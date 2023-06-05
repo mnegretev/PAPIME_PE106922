@@ -52,7 +52,6 @@ char* URLify(char* input_string)
             output_string[aux    ] = '%';
             output_string[aux + 1] = '2';
             output_string[aux + 2] = '0';
-            aux += 2;
         }
         else
             output_string[aux] = input_string[idx];

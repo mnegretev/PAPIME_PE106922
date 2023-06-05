@@ -49,7 +49,7 @@ int main(int argc, char** argv)
      */
 
     int i=0;
-    for(i=0; i < n; i++)
+    for(i=0; i <= n; i++)
         printf("Hello world!_");
     
     return 0;

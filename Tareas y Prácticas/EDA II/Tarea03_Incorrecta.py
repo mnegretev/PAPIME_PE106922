@@ -30,7 +30,7 @@ def greedy_change_making(W, denominations):
     # 'solution' should be [50, 20, 20, 5, 2, 2]
     #
     n = len(denominations) -1
-    while W > 0:
+    while W > 1:
         while denominations[n] > W:
             n -= 1
         solution.append(denominations[n])

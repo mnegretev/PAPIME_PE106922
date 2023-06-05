@@ -106,8 +106,8 @@ char* to_binary(int n)
     for(int i=0; i<n; i++)
     {
         head = queue_dequeue(&Q);
-        queue_enqueue(&Q, strcat(strdup(head), "0"));
         queue_enqueue(&Q, strcat(strdup(head), "1"));
+        queue_enqueue(&Q, strcat(strdup(head), "0"));
     }
     return head;
 }

@@ -116,14 +116,14 @@ float evaluate_postfix(char** expression, int argc)
 	    stack_push(&S, stack_pop(&S) * stack_pop(&S));
         else if(strcmp(expression[i],"-") == 0)
 	{
-	    op2 = stack_pop(&S);
 	    op1 = stack_pop(&S);
+	    op2 = stack_pop(&S);
 	    stack_push(&S, op1 - op2);
 	}
         else if(strcmp(expression[i],"/") == 0)
 	{
-	    op2 = stack_pop(&S);
 	    op1 = stack_pop(&S);
+	    op2 = stack_pop(&S);
 	    stack_push(&S, op1 / op2);
 	}
 	else
